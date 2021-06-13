@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Create three columns of equal width */
+  .columns {
+      float: left;
+    width: 25%;
+    padding: 5px ;
+    max-width: 960px;
+    margin-left: 80px;
+    margin-top: 400px;
+    
+    border-radius: 20px;
+    margin-bottom: 200px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .columns:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #088c45;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .price .header1 {
+    background-color: #f4f5f2;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .price .header2 {
+    background-color: #ce202c;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #f4f5f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #f4f5f0;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  
+  /*  list item */
+  .price .grey {
+    background-color: #088c463d;
+    font-size: 20px;
+  }
+
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #088c45;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .button1 {
+    background-color: #f4f5f2;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .button2 {
+    background-color: #ce202c;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .price .red{
+    background-color: #ce202965;
+    font-size: 20px;
+  }
+  .price .white{
+    background-color: #f5f6f2;
+    font-size: 20px;
+  }
+
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+  
+  body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+  
+ 
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .udforsk{
+      text-align: center;
+      margin-top: 200px;
+      margin-bottom: -300px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
